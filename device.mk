@@ -39,4 +39,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom_ramdisk:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/motorola/borneo/borneo-vendor.mk)
+$(call inherit-product, vendor/motorola/borneo/borneo-vendor.mk)
